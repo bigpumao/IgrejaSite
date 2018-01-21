@@ -294,7 +294,7 @@ $this->group(array('middleware' => 'web'), function () {
         $this->get('search', array('as' => 'blog.search', 'uses' => 'FrontEnd\Artigo\ArtigoController@search'));
         //Fim da rota de Paginação, só para eu me lembrar no futuro.
         $this->get('search/departamento/{id}', array('as' => 'blog.search.departamento.get', 'uses' => 'FrontEnd\Artigo\ArtigoController@searchDepartamentoGet'));
-        $this->post('search/departamento', array('as' => 'blog.search.departamento.post', 'uses' => 'FrontEnd\Artigo\ArtigoController@searchDepartamentoPost'));
+        $this->post('search/departamento', array('as' => 'blog.search.artigos.departamento.post', 'uses' => 'FrontEnd\Artigo\ArtigoController@searchDepartamentoPost'));
     });
     /*
      * Galeria de Imagens

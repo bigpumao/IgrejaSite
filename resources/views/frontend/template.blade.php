@@ -193,7 +193,7 @@
 
 
 <script src="{{url('/')}}/js/responsiveslides.min.js"></script>
-{{--<script src="{{url('/')}}/plugins/lightbox2-master/dist/js/lightbox.js"></script>--}}
+<script src="{{url('/')}}/plugins/lightbox2-master/dist/js/lightbox.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.js"></script>
 {{--//Pusher Notification--}}

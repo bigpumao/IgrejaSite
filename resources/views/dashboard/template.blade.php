@@ -37,6 +37,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css">
     <link rel="stylesheet" href={{url('/')}}/css/animate.css>
     <link rel="stylesheet" href={{url('/')}}/css/bootstrap-tour.min.css>
+    <link href="{{url('/')}}/plugins/lightbox2-master/dist/css/lightbox.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -499,6 +500,7 @@
 
 <!-- jQuery 3 -->
 <script src="{{url('/')}}/template/bower_components/jquery/dist/jquery.min.js"></script>
+
 <!-- jQuery UI 1.11.4 -->
 <script src="{{url('/')}}/template/bower_components/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -537,6 +539,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.pt-BR.min.js"></script>
 <script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
+<script src="{{url('/')}}/plugins/lightbox2-master/dist/js/lightbox.js"></script>
 {{--//pubhser--}}
 {{--<script src="https://js.pusher.com/4.1/pusher.min.js"></script>--}}
 <script src="{{url('/js/cep.js')}}/"></script>

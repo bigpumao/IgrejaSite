@@ -28,7 +28,7 @@
                
                 <a href="{{url('administrativo/album/imagem-destroy/'. $albuns->id  )}}"><li class="fa fa-trash-o pull-right"></li></a>
                 <div>  
-                    <a href="/imagens/album/imagens/{{$albuns->imagem}}" data-lightbox="image-1" data-title="{{$albuns->descricao}}">  <img class="img-bordered album" src="/imagens/album/imagens/{{$albuns->imagem}}"></a>
+                    <a href="/imagens/album/imagens/{{$albuns->imagem}}"  data-lightbox="roadtrip" data-lightbox="image-1" data-title="{{$albuns->descricao}}">  <img class="img-bordered album" src="/imagens/album/imagens/{{$albuns->imagem}}"></a>
                 </div>
             </div>
             

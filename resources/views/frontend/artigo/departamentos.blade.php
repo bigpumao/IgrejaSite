@@ -63,9 +63,9 @@
                     @endforeach
                 </div>
 
-                {!! Form::open(array('url'  =>  'artigos/search/departamento/')) !!}
+                {!! Form::open(array('route'  =>  'blog.search.artigos.departamento.post')) !!}
                 <div class="col-md-3">
-                   {!! Form::select('dep' , $searchdep , null , ['class'    =>  'form-control', 'placeholder'  =>  'Escolha uma Opção']) !!}
+                   {!! Form::select('dep' , $searchdep , null , ['class'    =>  'form-control']) !!}
                 </div>
                 <div class="col-md-2">
                     {!! Form::submit('Procurar' , ['class' =>  'btn btn-default btn-md']) !!}
